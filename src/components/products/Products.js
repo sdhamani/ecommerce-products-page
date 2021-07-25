@@ -25,8 +25,8 @@ function Products() {
           {" "}
           <option value="NEW">What's New</option>
           <option value="POPULARITY">Popularity</option>
-          <option value="LOWTOHIGH">Price: Low to High</option>
           <option value="RATING">RATING</option>
+          <option value="LOWTOHIGH">Price: Low to High</option>
           <option value="HIGHTOLOW">Price: High to Low</option>
         </select>
       </div>
@@ -38,7 +38,7 @@ function Products() {
             <>
               {filteredCat.map((cate) => {
                 return (
-                  <div className="actions-types">
+                  <div className="actions-types" key={cate}>
                     <input
                       type="checkbox"
                       onClick={() =>
