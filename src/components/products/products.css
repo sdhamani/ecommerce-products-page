@@ -1,0 +1,72 @@
+.products-flex {
+  min-height: 84vh;
+}
+
+.action-bar {
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 15rem;
+  padding: 0.3rem 0.3rem;
+  margin: 1rem auto;
+  color: var(--action-bar-color);
+  border-right: 1px solid lightgray;
+  overflow: auto;
+}
+
+.cards-products {
+  width: 85%;
+  margin-left: 11rem;
+}
+
+.actions-div {
+  border-bottom: 1px solid lightgray;
+}
+
+.actions-heading {
+  padding: 0.5rem 0.2rem;
+  margin: 0rem 0rem;
+  font-weight: 700;
+}
+.actions-types {
+  margin: 0.4rem 0.4rem;
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.actions-div label {
+  margin-left: 0.3rem;
+}
+
+.action-cat {
+  margin: 0rem 0.3rem;
+}
+.sort-by {
+  width: 18%;
+  position: relative;
+  left: 74.5%;
+  padding: 0rem 0.4rem;
+  margin: 0.5rem 0rem;
+  border: 1px solid black;
+}
+
+.sort-option {
+  padding: 0.5rem;
+  outline: none;
+  font-weight: 600;
+  border: none;
+}
+
+.show-more {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.show-more-btn {
+  background-color: inherit;
+  outline: none;
+  border: none;
+  color: pink;
+  font-weight: 550;
+  font-size: 1rem;
+}
